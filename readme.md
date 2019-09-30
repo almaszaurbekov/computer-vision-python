@@ -14,15 +14,23 @@ An python application that can recognize the faces of our classmates and give a 
   - **finalized_encoder.sav** - сохраненный encoder наших изображений
   
 ## How to install:
-  in terminal run:
-  ```python
-  install python3
-
+  0a. Если на ноутбуке нет веб-камеры:
+    Установите приложение Epoccam на свой телефон и подключите его к компьютеру
+  0b. Если вебкамера есть, то программа будет использовать её.
+  
+  1. Установите Python 3
+  2. Установите Jupiter Notebook с сайта jupyter.org
+  3. В терминале запустите:
+  ```
   pip install cmake
   pip install dlib
   pip install Keras
   pip install -r requirements.txt
   ```
 
-
+## How to run:
+  1. Запустите Jupyter, он автоматически откроется в браузере
+  2. Откройте в нем фаил master-file.ipynb
+  3. В верхнем меню выбирите Kernel -> Restart Kernel and Run All Cells
+  4. Enjoy!
 
